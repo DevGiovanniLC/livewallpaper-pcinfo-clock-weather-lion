@@ -1,10 +1,10 @@
 {
   "AppVersion": "1.0.0.0",
-  "Title": "Simple System lion",
+  "Title": "Info Lion",
   "Thumbnail": "resources/thumbnail.jpg",
   "Preview": "resources/preview.gif",
-  "Desc": "Lively hardware API showcase.",
-  "Author": "rocksdanister and Giovanni",
+  "Desc": "Lively hardware info, clock and weather.",
+  "Author": "Giovanni León Corujo and rocksdanister",
   "License": "See license.txt",
   "Contact": "https://github.com/DevGiovanniLC/livewallpaper-pcinfo-clock-lion",
   "Type": 1,
