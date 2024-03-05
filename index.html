@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 	<head>
 		<title>three.js webgl - glTF loader</title>
 		<meta charset="utf-8" />
@@ -8,16 +8,15 @@
 			content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
 		/>
 		<link rel="stylesheet" href="style/main.css" />
+		<link rel="stylesheet" href="style/clock.css" />
+		<link rel="stylesheet" href="style/weather.css" />
 	</head>
 	<body id="body">
-		<div
-			id="clock"
-			style="
-				z-index: 100;
-				position: absolute;
-				top: 25%;
-			"
-		>
+		<div id="weather-container" style="z-index: 50; position: absolute; top: 8%">
+			<div id="weather-info"></div>
+		</div>
+
+		<div id="clock" style="z-index: 100; position: absolute; top: 28%">
 			<p id="date"></p>
 			<p id="time"></p>
 		</div>
@@ -76,10 +75,11 @@
 			<canvas id="netChart" />
 		</div>
 		<!-- New version of chart.js has issue with chartjs-plugin-streaming.js, using this: https://cdn.jsdelivr.net/npm/chart.js@2.8.0 -->
-		<script src="js/moment.min.js"></script>
-		<script src="js/chart.js"></script>
-		<script src="js/chartjs-plugin-streaming.min.js"></script>
-		<script src="script.js"></script>
-		<script src="js/time.js"></script>
+		<script src="scripts/moment.min.js"></script>
+		<script src="scripts/chart.js"></script>
+		<script src="scripts/chartjs-plugin-streaming.min.js"></script>
+		<script src="scripts/script.js"></script>
+		<script src="scripts/time.js"></script>
+		<script src="scripts/weather.js"></script>
 	</body>
 </html>
