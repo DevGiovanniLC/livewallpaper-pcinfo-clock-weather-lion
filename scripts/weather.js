@@ -1,5 +1,5 @@
 
-const apiKey = "81b26d93f2437095ac74c34866748a88";
+const apiKey = "API_KEY";
 const city = "Las Palmas de Gran Canaria"
 const lon=-15.439
 const lat = 28.1165
