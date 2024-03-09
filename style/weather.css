@@ -1,13 +1,9 @@
-#weather-container {
-    font-family: sans-serif;
-    text-shadow: 0 0 20px rgb(253, 42, 77), 0 0 20px rgba(10, 175, 230, 0);
-    justify-content: center;
-    left: 44%;
-}
-
 #weather-info {
-    text-align: center;
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    text-align: center;
+    text-wrap: pretty;
+    gap: 15px;
+    font-family: sans-serif;
+    text-shadow: 0 0 20px rgb(253, 42, 77), 0 0 20px rgba(10, 175, 230, 0);
 }
