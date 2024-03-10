@@ -1,7 +1,7 @@
 const time = document.getElementById('time');
 const date = document.getElementById('date');
 
-var week = ['DO', 'LU','MA', 'MI', 'JU', 'VI', 'SA'];
+var week = ['DOM', 'LUN','MAR', 'MIE', 'JUE', 'VIE', 'SAB'];
 var timerID = setInterval(syncronizeTime, 1000);
 syncronizeTime()
 
