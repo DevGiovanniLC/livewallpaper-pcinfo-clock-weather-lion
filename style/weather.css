@@ -1,9 +1,14 @@
 #weather-info {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    text-align: center;
-    text-wrap: pretty;
-    gap: 15px;
+    justify-content: center;
     font-family: sans-serif;
     text-shadow: 0 0 20px rgb(253, 42, 77), 0 0 20px rgba(10, 175, 230, 0);
+    gap: 15px;
+    line-height: 0px;
+    align-items: center;
+    text-align: center;
+    font-size: 0.8em;
+
 }

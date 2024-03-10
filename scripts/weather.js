@@ -20,9 +20,9 @@ function getWeather() {
 				const icon = data.weather[0].icon
 
 				weatherInfo.innerHTML= `
+				<img src="http://openweathermap.org/img/wn/${icon}.png" alt="Weather icon">
             <p>${String(temperature).substring(0,2)}°C</p>
             <p>${description}</p>
-            <img src="http://openweathermap.org/img/wn/${icon}.png" alt="Weather icon">
             `
 			} else {
 				
